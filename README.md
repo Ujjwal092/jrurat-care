@@ -8,7 +8,7 @@
 
 **A modern and responsive web application for managing or providing care-related services, built with React and Tailwind CSS.**
 
-[Live Demo](https://demo-link.com) <!-- TODO: Add live demo link if available -->
+[Live Demo](jruratai.netlify.app) <!-- TODO: Add live demo link if available -->
 
 </div>
 
