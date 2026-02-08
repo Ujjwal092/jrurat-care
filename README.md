@@ -16,14 +16,24 @@
 
 `jrurat-care` is a single-page application (SPA) designed to deliver a smooth user experience for care-related functionalities. Leveraging the power of React for a dynamic interface and Tailwind CSS for utility-first styling, this project provides a clean, responsive, and efficient platform. It's built with a focus on modern web development practices, offering a robust foundation for further expansion in the healthcare or personal care domain.
 
-## ✨ Features
-
--   **Component-Based Architecture**: Built with React for modular and reusable UI components.
--   **Responsive Design**: Utilizes Tailwind CSS to ensure a seamless experience across various devices and screen sizes.
--   **Modern Styling**: Utility-first CSS framework for rapid and consistent UI development.
--   **Fast Development Environment**: Powered by Vite for quick build times and an efficient development workflow with Hot Module Replacement (HMR).
--   **Code Quality**: Integrated ESLint to maintain high code standards and catch issues early.
-
+## 🔥 Features
+- AI-powered symptom triage assistant (chatbot)
+- Volunteer / patient support form
+- Auto-response logic
+- Responsive UI with Tailwind CSS
+- Live deployment
+  
+## 🚀 How to Use
+1. Visit the Live Demo: https://jruratai.netlify.app
+2. Use the navigation to switch tabs
+3. Fill out the support form
+4. Try asking the chatbot about symptoms or volunteering
+   
+## 🚧 Future Improvements
+- Add a backend (Node/MongoDB) to persist form data
+- Integrate real AI API for smarter automated responses
+- Admin dashboard for volunteer management
+   
 ## 🖥️ Screenshots
 
 A glimpse of `jrurat-care` in action:
