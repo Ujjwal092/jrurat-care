@@ -142,6 +142,16 @@ const Navbar = ({
             <Sparkles size={16} />
             AI Support
           </button>
+          <button
+            onClick={() => {
+              window.open("https://www.jarurat.care/donate", "_blank");
+              setIsMobileMenuOpen(false);
+            }}
+            className="block w-full text-left p-3 rounded-xl text-base font-medium text-gray-700 dark:text-gray-300"
+          >
+            Help Us
+          </button>
+          
         </div>
       )}
     </nav>

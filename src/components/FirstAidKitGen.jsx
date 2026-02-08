@@ -36,34 +36,35 @@ Explain why each item is needed.`;
             ✨ Custom First-Aid Kit
           </h2>
           <p className="text-gray-500 dark:text-gray-400">
-            Apni situation batao, AI tumhare liye exact first-aid list banayega.
+            
           </p>
         </div>
 
         {/* Right */}
         <div className="md:w-2/3 w-full">
-          <div className="flex gap-2">
-            <input
-              type="text"
-              placeholder="e.g. Road trip, Monsoon, Camping, Elder care"
-              className="flex-1 p-4 bg-gray-50 dark:bg-gray-700 rounded-2xl dark:text-white focus:ring-2 focus:ring-blue-500 outline-none"
-              value={scenario}
-              onChange={(e) => setScenario(e.target.value)}
-            />
+      <div className="flex flex-col sm:flex-row gap-2 w-full">
+  <input
+    type="text"
+    placeholder="e.g. Road trip, Monsoon, Camping, Elder care"
+    className="flex-1 p-4 bg-gray-50 dark:bg-gray-700 rounded-2xl dark:text-white focus:ring-2 focus:ring-blue-500 outline-none"
+    value={scenario}
+    onChange={(e) => setScenario(e.target.value)}
+  />
 
-            <button
-              onClick={generateKit}
-              disabled={loading}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 rounded-2xl flex items-center gap-2"
-            >
-              {loading ? (
-                <Loader className="animate-spin" />
-              ) : (
-                <Lightbulb />
-              )}
-              Build
-            </button>
-          </div>
+  <button
+    onClick={generateKit}
+    disabled={loading}
+    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-4 rounded-2xl flex items-center gap-2 w-full sm:w-auto justify-center"
+  >
+    {loading ? (
+      <Loader className="animate-spin" />
+    ) : (
+      <Lightbulb />
+    )}
+    Build
+  </button>
+</div>
+
 
           {kit && (
             <div className="mt-6 p-6 bg-blue-50/50 dark:bg-blue-900/10 rounded-2xl border border-blue-100 dark:border-blue-800 text-sm dark:text-gray-300 whitespace-pre-line animate-fade-in">
