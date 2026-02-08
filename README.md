@@ -41,7 +41,7 @@ Works on mobile, tablet, and desktop
 
 Safety-first approach
 
-##structure
+## structure
 src/
 ├── api/
 │   └── gemini.js
@@ -54,7 +54,7 @@ src/
 │   ├── Volunteer.jsx
 │   └── Chat.jsx
 ├── App.jsx
-└── main.jsx
+└── main.jsx](https://tree.nathanfriend.com/?s=(%27options!(%27fancy5~fullPath!false~trailingSlash5~rootDot5)~6(%276%27src%2F9api72gemini.js9components70Navbar3-0Foot8-2PrescriptionSimplifi89pages70Home3-0Volunte8-2Chat39App342main3%27)~version!%271%27)*%E2%94%80%E2%94%80%20-4%E2%94%82%20%20%200%E2%94%9C*2%E2%94%94*3.jsx4%5Cn5!true6source!7%2F-8er3940%01987654320-*)
 
 
 ## Impact
